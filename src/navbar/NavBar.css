@@ -1,0 +1,17 @@
+.List{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(211, 136, 193);
+    margin-top: 3px;
+    color: black;
+    font-size: 1.5rem;
+    list-style: none;
+    text-decoration: none;
+}
+.Deco{
+    text-decoration: none;
+}
+.Cart{
+    height: 50px;
+    width: 50px;
+}
