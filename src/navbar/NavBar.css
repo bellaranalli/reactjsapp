@@ -2,11 +2,17 @@
     display: flex;
     justify-content: space-between;
     background-color: rgba(6, 22, 4, 0.348);
-    margin-top: 3px;
-    margin-top: 1px;
     color: rgb(250, 250, 250);
     font-size: 1.5rem;
     list-style: none;
     text-decoration: none;
+    margin-top: 1px;
+    padding: auto;
 }
-
+a{
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+}
+.List :hover{
+    color: black;
+}
