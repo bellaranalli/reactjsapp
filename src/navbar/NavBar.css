@@ -1,17 +1,12 @@
 .List{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(211, 136, 193);
+    background-color: rgba(6, 22, 4, 0.348);
     margin-top: 3px;
-    color: black;
+    margin-top: 1px;
+    color: rgb(250, 250, 250);
     font-size: 1.5rem;
     list-style: none;
     text-decoration: none;
 }
-.Deco{
-    text-decoration: none;
-}
-.Cart{
-    height: 50px;
-    width: 50px;
-}
+
