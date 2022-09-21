@@ -4,7 +4,7 @@ import Card from './Card'
 const Item = () => {
     return (
         <Card>
-        <h1>Holaaaaa Mundo</h1>
+        <h1>Voy a ser un producto pronto</h1>
       </Card>
     )
 }

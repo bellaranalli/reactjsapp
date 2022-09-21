@@ -1,7 +1,12 @@
 .card{
-    background: rgb(255, 0, 0);
+    background: rgba(90, 12, 12, 0.773);
     border-radius: 5px;
     padding: 1rem;
     margin-left: 5px;
     margin-right: 5px;
+    margin-top: 5px;
+  }
+
+  .greeting{
+    font-size: 3rem;
   }
