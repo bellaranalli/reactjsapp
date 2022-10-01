@@ -1,0 +1,15 @@
+.buttons{
+    display: flex;
+    justify-content: space-around;
+
+}
+button{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 32px;
+}
+
+.contador{
+    font-size: 2rem;
+
+}

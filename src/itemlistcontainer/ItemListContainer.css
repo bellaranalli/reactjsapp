@@ -5,8 +5,17 @@
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 5px;
+    height: 10rem;
+    width: 10rem;
   }
 
   .greeting{
     font-size: 3rem;
+  }
+  .lista{
+    display: flex;
+    flex-direction: row;
+  }
+  .nombreproducto{
+    font-size: 2rem;
   }

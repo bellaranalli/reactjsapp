@@ -1,10 +1,12 @@
+import React from 'react';
 import "./ItemListContainer.css"
 import Card from './Card'
 
 const Item = () => {
     return (
         <Card>
-        <h1>Voy a ser un producto pronto</h1>
+        <h1 className="nombreproducto">PRODUCTO</h1>
+        
       </Card>
     )
 }
