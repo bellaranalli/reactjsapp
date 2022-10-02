@@ -1,12 +1,15 @@
 import React, { useState } from "react";
 import "./CounterButton.css"
+
+const stock = 5
+
 const CounterButton = () => {
     const [counter, setCounter] = useState(0)
     const handleClick1 = () => {
-        setCounter(counter + 1)
+        counter < stock ? setCounter(counter + 1) : console.log ('Se alcanzó el máximo')
     }
     const handleClick2 = () => {
-        setCounter(counter - 1)
+        counter > 0  ? setCounter(counter - 1) : console.log ('Valores negativos no permitidos')
     }
     return (
         <div className="buttons">

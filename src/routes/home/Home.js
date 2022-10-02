@@ -1,10 +1,14 @@
 import React from 'react';
 import ItemListContainer from '../../itemlistcontainer/ItemListContainer';
+import Vinoteca from '../../itemlistcontainer/Vinoteca';
 
 const Home = () => {
-return <h1>
+return <div>
+    <h1>
+    <Vinoteca greeting={"VINOS"}/>
+    </h1>
     <ItemListContainer/>
-</h1>
+    </div>
 
 }
  export default Home;

@@ -5,12 +5,15 @@
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 5px;
-    height: 10rem;
-    width: 10rem;
+    height: 20rem;
+    width: 20rem;
+    justify-content: center;
+    flex-direction: row;
   }
 
   .greeting{
     font-size: 3rem;
+    margin-left: 40%;
   }
   .lista{
     display: flex;
@@ -19,3 +22,13 @@
   .nombreproducto{
     font-size: 2rem;
   }
+
+  .listado{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: 30%;
+  }
+  

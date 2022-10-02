@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const ItemListContainers = ({greeting}) =>{
+const Vinoteca = ({greeting}) =>{
     return(
         <div className="greeting">
             <hi>
@@ -11,4 +11,4 @@ const ItemListContainers = ({greeting}) =>{
     )
 }
 
-export default ItemListContainers;
+export default Vinoteca;
