@@ -35,14 +35,16 @@ function Item() {
             return (
                 <div className='card'>
                 <ul className='listado'>
+                    <li>{element.id}</li>
                     <li>{element.title}</li>
                     <li>{element.price}</li>
                     <li>{element.category}</li>
                     
                 </ul>
                 <CountButton />
-                <DetailButton/>
+                <DetailButton />
                 </div>
+                
             )
         }
     )
