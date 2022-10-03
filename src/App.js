@@ -1,20 +1,22 @@
+import './App.css';
+import { Header } from './components';
+import { ItemDetailConteiner } from './components/itemdetailcontainer';
+import { ItemListContainer } from './components';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Navbar from './navbar/Navbar'
-import Home from './routes/home/Home';
-import Vinos from './routes/vinos/Vinos';
-import VinosId from './routes/vinosid/VinosId';
-
-export default function App() {
+function App() {
   return (
     <BrowserRouter>
-    <Navbar/>
+      <Header/>
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/vinos" element={<Vinos />} />
-        <Route exact path="/vinos/:id" element={<VinosId />} />
+        <Route path='/' element={<ItemListContainer />}/>
+        <Route path='/category/:category' element={<ItemListContainer />}/>
+        <Route path='/contacto' element={<div>Contacto</div>}/>
+        <Route path='/detail/:id' element={<ItemDetailConteiner />}/>
       </Routes>
     </BrowserRouter>
-  );
+  )
 }
+
+export default App;
