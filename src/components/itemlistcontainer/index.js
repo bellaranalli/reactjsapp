@@ -3,6 +3,7 @@ import { useEffect, useState } from "react"
 import ItemList from '../itemlist/Index';
 import { data } from '../data/Index';
 import { useParams } from "react-router-dom";
+import './ItemList.css';
 
 export function ItemListContainer () {
 
@@ -25,5 +26,5 @@ export function ItemListContainer () {
         }, 2000);
     });
 
-    return <ItemList lista={productList}/>
+    return <ItemList lista={productList} classname="ordenarProductos"/>
 }

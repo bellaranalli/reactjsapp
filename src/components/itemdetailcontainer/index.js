@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from "react"
-import {data} from '../data/index';
-import ItemDetail from "../itemdetail";
+import {data} from '../data/Index';
+import ItemDetail from "../itemdetail/Index";
 import { useParams } from "react-router-dom";
 
 export function ItemDetailConteiner (){
@@ -19,7 +19,7 @@ export function ItemDetailConteiner (){
 
     const getProducts = new Promise((resolve, reject) => {
         setTimeout(() => {
-          resolve([data.find((zapato) => zapato.id == id)])
+          resolve([data.find((vino) => vino.id == id)])
         }, 2000)
       })
 

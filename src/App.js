@@ -1,7 +1,7 @@
 import './App.css';
-import { Header } from './components';
-import { ItemDetailConteiner } from './components/itemdetailcontainer';
-import { ItemListContainer } from './components';
+import { Header } from './components/header/Index';
+import { ItemDetailConteiner } from './components/itemdetailcontainer/Index';
+import { ItemListContainer } from './components/itemlistcontainer/Index';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import React from 'react';
 

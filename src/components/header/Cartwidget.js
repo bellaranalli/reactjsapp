@@ -1,4 +1,5 @@
 import React from 'react';
+import './NavBar.css';
 
 export function CartWidget ({ cantidadProductos }) {
   return (
