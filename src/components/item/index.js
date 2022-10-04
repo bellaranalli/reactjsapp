@@ -1,7 +1,7 @@
 import React from "react";
 import './Item.css';
 
-const Item = ({title, price, image, category, description}) =>{
+const Item = ({title, price, category, description}) =>{
     return(
         <div>
             

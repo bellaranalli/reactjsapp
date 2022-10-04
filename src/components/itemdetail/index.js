@@ -6,7 +6,7 @@ const ItemDetail = ({lista}) =>{
     <div>
         {
             lista.map((product)=> (
-                <Item key={product.id} title={product.title} price={product.price} image={product.image} description={product.description}/>
+                <Item key={product.id} title={product.title} price={product.price} description={product.description}/>
             ))
         }
     </div>
