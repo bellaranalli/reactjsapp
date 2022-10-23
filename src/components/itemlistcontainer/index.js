@@ -26,5 +26,5 @@ export function ItemListContainer () {
         }, 2000);
     });
 
-    return <ItemList lista={productList} classname="ordenarProductos"/>
+    return <ItemList lista={productList} />
 }

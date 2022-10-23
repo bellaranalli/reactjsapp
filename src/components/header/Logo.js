@@ -5,7 +5,7 @@ import './NavBar.css';
 export function Logo () {
     return (
         <NavLink to={'/'} className="nav-link">
-            <h1>VINO</h1>
+            <h1>VINOS</h1>
         </NavLink>
     )
 }

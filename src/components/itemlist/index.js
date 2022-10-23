@@ -1,10 +1,11 @@
 import React from 'react';
 import Item from "../item/Index";
 import { Link } from "react-router-dom";
+import './ItemList.css';
 
 const ItemList = ({lista}) =>{
     return (
-    <div>
+    <div className='ordenarProductos'>
         {
             lista.map((product)=> (
                 <Link 
