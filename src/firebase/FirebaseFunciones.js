@@ -1,4 +1,4 @@
-import { db } from "./firebaseConfig";
+import { db } from "./FirebaseConfig";
 import { collection, query, where, getDocs, doc, getDoc, addDoc } from "firebase/firestore";
 
 export const getAllproductos = async (categoria) => {
