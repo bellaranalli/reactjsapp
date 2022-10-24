@@ -1,16 +1,13 @@
 import React from "react";
 import "./Style.css";
 import { Routes, Route } from "react-router-dom";
-
-//Components
 import NavBar from "./components/NavBar/NavBar";
-//import ItemCounter from "../src/components/Items/ItemCounter/ItemCounter";
 import ItemListContainer from "./components/Items/ItemListContainer/ItemListContainer";
 import ItemDetailContainer from "./components/Views/ItemDetail/ItemDetailContainer";
 import Cart from "./components/Views/Cart/Cart";
 import { CartContextProvider } from "./context/CartContext";
 import Footer from "./components/Footer/Footer";
-// import { ItemsProvider } from "./context/CartContext";
+
 
 const App = () => {
   return (

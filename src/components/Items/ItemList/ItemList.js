@@ -3,8 +3,7 @@ import "./ItemList.css";
 import ItemCard from "../Item/ItemCard";
 
 const ItemList = ({data}) => {
-  //La logica de mi programa siempre se encuentra antes del return y despues de declarar mi ItemList
-  //Crear un grid
+
   return (
       <div>
         <h1 style={{textAlign:"center", marginTop:20}}>Users</h1>

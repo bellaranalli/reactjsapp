@@ -3,7 +3,6 @@ import React, { useContext } from "react";
 //Components
 import { CartContext } from "../../../context/CartContext";
 import CartItem from "../../CartItem/CartItem";
-import CartResumen from "../../CartResumen/CartResumen";
 //Style components
 import "../Cart/CartStyle.css";
 import "../../CartResumen/CartResumen.css";
@@ -11,7 +10,7 @@ import CarritoVacio from "../../CarritoVacio/CarritoVacio";
 import ItemForm from "../../ItemForm/ItemForm"
 
 const Cart = ({ item }) => {
-  const [cartItems, cantidadCarrito, addCart, removeItem, clear, cartTotal, iva] = useContext(CartContext);
+  const [cartItems, cantidadCarrito, , , clear, cartTotal, iva] = useContext(CartContext);
 
   return (
     <div className="cart-container">

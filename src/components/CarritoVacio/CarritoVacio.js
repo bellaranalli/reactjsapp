@@ -1,5 +1,5 @@
 import React from 'react'
-import "./CarritoVacio.css" //cmd +shift+h para extensión ruta relativa
+import "./CarritoVacio.css" 
 import { Link } from 'react-router-dom'
 const CarritoVacio = () => {
     return (

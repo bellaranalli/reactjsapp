@@ -5,7 +5,7 @@ import { CartContext } from "../../../context/CartContext";
 import React
  from "react";
 function ItemCounter({ stock, initial, onAdd }) {
-  const [cartItems, cantidadCarrito, addCart, removeItem, clear] = useContext(CartContext);
+  const [cartItems] = useContext(CartContext);
   const [count, setCount] = useState(initial);
   const increment = () => {
     if (count < stock) {
@@ -23,12 +23,7 @@ function ItemCounter({ stock, initial, onAdd }) {
     }
   };
 
-  const addToCart = () => {
-    if (stock > 0 && count > 0) {
-      onAdd(count);
-      
-    }
-  };
+  
 
   return (
     <>

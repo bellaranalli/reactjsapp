@@ -6,7 +6,7 @@ import { CartContext } from '../../context/CartContext';
 
 
 const CartItem = ({item}) => {
-    const [cartItems, cantidadCarrito, addCart, removeItem, clear] = useContext(CartContext)
+    const [,, addCart, removeItem] = useContext(CartContext)
 
 
     const removeHandler = () => {

@@ -12,7 +12,7 @@ import { CartContext } from '../../../context/CartContext';
  function ItemDetail({data}) {
 
   const {image, title, price, descripcion, stock} = data
-  const [cartItems, cantidadCarrito, addCart, removeItem, clear] = useContext(CartContext)
+  const [, , addCart] = useContext(CartContext)
 
   function onAdd(count){
     addCart(data,count)

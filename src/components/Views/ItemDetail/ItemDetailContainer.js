@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
-// import { Box, Grid } from "@mui/material";
+
 //Components
 import "../ItemDetail/ItemDetail.css";
-//import { getById } from "../../../data/data";
+
 import ItemDetail from "../../Items/ItemDetail/ItemDetail";
 import { getProductosXId } from "../../../firebase/FirebaseFunciones";
 
