@@ -9,7 +9,7 @@ import "../Item/Item.css"
 
  function ItemCard({data}) {
 
-  const {img, name, price} = data
+  const {image, title, price} = data
 
   return (
     <>
@@ -19,11 +19,11 @@ import "../Item/Item.css"
       <CardMedia
         component="img"
         alt="Productos"
-        image={img}
+        image={image}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div"  >
-          {`Nombre: ${name}`}
+          {`Nombre: ${title}`}
         </Typography>
         <Typography variant="body2" color="text.secondary">
           {`Precio: ${price}`}

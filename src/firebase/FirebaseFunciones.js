@@ -6,9 +6,9 @@ export const getAllproductos = async (categoria) => {
     let q = null;
 
     if(categoria === undefined){
-      q = query(collection(db, "productos"));// me trae los proctos
+      q = query(collection(db, "items"));// me trae los proctos
     }else{
-      q = query(collection(db, "productos"), where("category", "==", categoria));// Me trae los productos por categoria que le paso por parametro 
+      q = query(collection(db, "items"), where("category", "==", categoria));// Me trae los productos por categoria que le paso por parametro 
     }
 
     const querySnapshot = await getDocs(q);
@@ -25,7 +25,7 @@ export const getAllproductos = async (categoria) => {
 
 
 export const getProductosXId = async (id) => {
-  const docRef = doc(db, "productos", id);// Arma la petición (?)
+  const docRef = doc(db, "items", id);// Arma la petición (?)
   const docSnap = await getDoc(docRef);// Ejecuta la busqueda de ese documento
 
 

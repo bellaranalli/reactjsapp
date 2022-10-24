@@ -11,7 +11,7 @@ import { CartContext } from '../../../context/CartContext';
 
  function ItemDetail({data}) {
 
-  const {img, name, price, description, stock} = data
+  const {image, title, price, descripcion, stock} = data
   const [cartItems, cantidadCarrito, addCart, removeItem, clear] = useContext(CartContext)
 
   function onAdd(count){
@@ -25,17 +25,17 @@ import { CartContext } from '../../../context/CartContext';
       <CardMedia
         component="img"
         alt="Usuarios"
-        image={img}
+        image={image}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div"  >
-          {`Nombre: ${name}`}
+          {`Nombre: ${title}`}
         </Typography>
         <Typography variant="body2" color="text.secondary">
           {`Precio: ${price}`}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          {`Descripcion: ${description}`}
+          {`Descripcion: ${descripcion}`}
         </Typography>
         <ItemCounter stock={stock} initial={1} onAdd={onAdd} />
       </CardContent>

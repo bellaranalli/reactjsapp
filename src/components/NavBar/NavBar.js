@@ -1,12 +1,7 @@
 import "../NavBar/NavBar.css";
 import CartWidget from '../CartWidget/CartWidget'
 import { Link } from "react-router-dom";
-import React, { useState } from "react";
-import { CartContext } from "../../context/CartContext";
-import { useContext } from "react";
-
-
-
+import React from "react";
 const NavBar = () => {
     
     return( 
@@ -22,7 +17,7 @@ const NavBar = () => {
            <div className="ul-li-container">
             <ul className="ul-li">    
                 <li> <Link to={`/`}>Home</Link></li>
-                <li><Link to={`/category/mujer`}>ZMujer</Link></li>
+                <li><Link to={`/category/mujer`}>Mujer</Link></li>
                 <li><Link to={`/category/hombre`}>Hombre</Link></li>
                 <li><Link to={`/category/kids`}>Kids</Link></li>
                 <CartWidget/>
