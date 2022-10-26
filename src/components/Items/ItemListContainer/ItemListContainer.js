@@ -8,7 +8,6 @@ import "../ItemListContainer/ItemListContainer.css";
 import ItemCard from "../../Items/Item/ItemCard";
 import { getAllproductos } from "../../../firebase/FirebaseFunciones";
 
-
 const ItemListContainer = () => {
   const [items, setItems] = useState([]);
 
@@ -29,10 +28,16 @@ const ItemListContainer = () => {
 
   return (
     <>
-      
-      <div className="container, box-container">
+       <div className="container, box-container">
        <Grid container  >
-        { items.length === 0 ? <CircularProgress/>  : items.map((item) => {
+        { items.length === 0 ? <CircularProgress color="secondary"  sx={{
+              position: 'absolute',
+              top: '50%',
+              left: '50%',
+              marginTop: '-12px',
+              marginLeft: '-12px',
+            }}
+          />   : items.map((item) => {
           return (
             <Grid key={item.id} item xs={12} sm={4} md= {4} lg={4}>
               <Box margin={9} >
