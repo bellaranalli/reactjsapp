@@ -23,15 +23,9 @@ const ItemListContainer = () => {
       })
       .catch(error => console.log(error))
     
-  
-    
 
-      // setUsers: le paso a users toda la data de la API
   }, [categoria]);
 
-
-  
-  //if (items == null ) return <p>CARGANDO....</p>  //ACA VA EL SPINNER
 
   return (
     <>

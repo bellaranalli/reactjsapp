@@ -9,6 +9,7 @@ import { CartContext } from '../../../context/CartContext';
 
 
 
+
  function ItemDetail({data}) {
 
   const {image, title, price, descripcion, stock} = data
@@ -35,7 +36,7 @@ import { CartContext } from '../../../context/CartContext';
           {`Precio: ${price}`}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          {`Descripcion: ${descripcion}`}
+          {`Descripción: ${descripcion}`}
         </Typography>
         <ItemCounter stock={stock} initial={1} onAdd={onAdd} />
       </CardContent>

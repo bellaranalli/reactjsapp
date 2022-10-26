@@ -5,9 +5,9 @@
     height: 400px;
     width: 100%;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px #999;
+    box-shadow: 0px 0px 10px rgb(234, 0, 255, 0.808);
     letter-spacing: 2px;
-    /* margin-bottom: 2em; */
+
 }
 
 .content-cart-text{
@@ -20,7 +20,7 @@
     margin-right: 30px;
     padding: 4px;
     border-radius: 10px; 
-    /* box-shadow: 1px 1px 20px black; */
+
 }   
 .content-cart h4{
     color:#333;
@@ -50,7 +50,7 @@ height: 30px!important;
 }    
 
 .button{
-    background-color: rgb(216, 106, 106);
+    background-color: rgb(0, 0, 0);
     color: #fff;
     border: none;
     min-width: 50px;
@@ -58,7 +58,7 @@ height: 30px!important;
     border-radius:3px;
 }
 .button:hover{
-    box-shadow: 2px 2px 20px black;
+    box-shadow: 1px 1px 15px black;
     cursor:pointer;
 }
 
@@ -84,9 +84,9 @@ height: 30px!important;
         height: 350px;
         width: 90%;
         border-radius: 10px;
-        box-shadow: 0px 0px 10px #999;
+        box-shadow: 0px 0px 10px rgb(234, 0, 255, 0.808);
         padding: 20px;
-        /* margin-bottom: 2em; */
+
     }
 
 }
@@ -110,7 +110,7 @@ height: 30px!important;
         padding: 10px;
         text-align: center;
         border-radius: 13px;
-        box-shadow: 0px 0px 10px #999;
+        box-shadow: 0px 0px 10px rgb(234, 0, 255, 0.808);
         letter-spacing: normal;
     }
     .content-cart button{

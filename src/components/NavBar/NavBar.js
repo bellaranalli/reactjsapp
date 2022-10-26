@@ -16,10 +16,10 @@ const NavBar = () => {
            </div> 
            <div className="ul-li-container">
             <ul className="ul-li">    
-                <li> <Link to={`/`}>Home</Link></li>
-                <li><Link to={`/category/mujer`}>Mujer</Link></li>
-                <li><Link to={`/category/hombre`}>Hombre</Link></li>
-                <li><Link to={`/category/kids`}>Kids</Link></li>
+                <li> <Link to={`/`}>HOME</Link></li>
+                <li><Link to={`/category/mujer`}>MUJER</Link></li>
+                <li><Link to={`/category/hombre`}>HOMBRE</Link></li>
+                <li><Link to={`/category/kids`}>KIDS</Link></li>
                 <CartWidget/>
             </ul>
            </div>

@@ -22,7 +22,7 @@ const Cart = ({ item }) => {
             <h1>Mi carrito</h1>
           </div>
 
-          {/* Cart total informacion total del producto y mandar los botones aca */}
+          {/* Cart total información total del producto */}
           <div className="container-master">
           
             <div className="cart-container-items">
@@ -42,7 +42,7 @@ const Cart = ({ item }) => {
                 {
                  cantidadCarrito() > 0  ? <ItemForm/> : null
                 }
-                <button onClick={clear}>Vaciar Carrito</button>
+                <button onClick={clear}>VACIAR</button>
               </div>
             </div>
           </div>

@@ -38,12 +38,11 @@ function ItemCounter({ stock, initial, onAdd }) {
           </button>
         </div>
         <div className="agregar-carrito">
-          <button onClick={() => onAdd(count)}>Agregar al carrito</button> 
-          {/* El operador ternario hace que no me muestre finalizar compra */}
+          <button onClick={() => onAdd(count)}>AGREGAR AL CARRITO</button> 
           {cartItems.length === 0 ? null : 
             <Link to={"/cart"}>
               <button style={{ width: "100px", padding: "1px" }}>
-                Finalizar compra
+                FINALIZAR COMPRA
               </button>
             </Link>
           }

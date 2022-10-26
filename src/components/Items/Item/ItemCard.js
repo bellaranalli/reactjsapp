@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import "../Item/Item.css"
 
 
+//card de items en home
 
  function ItemCard({data}) {
 

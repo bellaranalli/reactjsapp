@@ -130,7 +130,7 @@ export default function FormDialog() {
         </DialogActions>
         {   
             alerta ? <Alert variant="filled" severity="success">
-                Compra realizada con exito ,su codigo de compra es : <span style={{fontSize:"20px"}}>{idCompra}</span>
+                Compra realizada con éxito ,su cóigo de compra es : <span style={{fontSize:"20px"}}>{idCompra}</span>
             </Alert> : null
         }
       </Dialog>

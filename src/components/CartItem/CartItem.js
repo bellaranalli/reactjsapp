@@ -3,6 +3,7 @@ import "./CartItem.css"
 import DeleteRoundedIcon from '@mui/icons-material/DeleteRounded';
 import { CartContext } from '../../context/CartContext';
 
+//sumo y resto productos y borro compra
 
 
 const CartItem = ({item}) => {
@@ -14,14 +15,16 @@ const CartItem = ({item}) => {
     }
 
     const sumaHandler = () =>{
+        if(item.cantidad < 5)
         addCart(item, 1)
+        
+
     }
     const restaHandler = () =>{
 
         if(item.cantidad > 1){
             addCart(item, -1)
         }
-        
         
     }
 
@@ -43,7 +46,7 @@ const CartItem = ({item}) => {
                 </div>
                 <h4><u>Sub Total:</u> ${item.cantidad*item.price} </h4>
                     <div className="delete-content">
-                        <h5>borrar producto: </h5>
+                        <h5>Borrar compra: </h5>
                         <DeleteRoundedIcon className="content-cart-icon" onClick={removeHandler} />
                     </div>
             </div>
