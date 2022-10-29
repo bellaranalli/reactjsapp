@@ -18,7 +18,6 @@ const CartItem = ({item}) => {
         if(item.cantidad < 5)
         addCart(item, 1)
         
-
     }
     const restaHandler = () =>{
 

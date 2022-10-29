@@ -8,6 +8,8 @@ import "../ItemListContainer/ItemListContainer.css";
 import ItemCard from "../../Items/Item/ItemCard";
 import { getAllproductos } from "../../../firebase/FirebaseFunciones";
 
+//carga de home y muestro todos los items.
+
 const ItemListContainer = () => {
   const [items, setItems] = useState([]);
 
@@ -20,7 +22,7 @@ const ItemListContainer = () => {
       .then(prod => {
         setItems(prod)
       })
-      .catch(error => console.log(error))
+      
     
 
   }, [categoria]);

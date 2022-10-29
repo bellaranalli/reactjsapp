@@ -3,7 +3,7 @@ import React, {createContext, useState} from 'react';
 export const CartContext = createContext();
 
 
-
+//funciones del cart
 
 export const CartContextProvider = ({children}) => {
     const [cartItems, setCartItems] = useState([]);
@@ -24,7 +24,7 @@ export const CartContextProvider = ({children}) => {
 
     function addCart(item, cantidad) {
         if(cantidad === 0){
-          return; //Corta el codigo
+          return; 
         }
     
         let existe = isInCart(item.id); 
@@ -40,7 +40,7 @@ export const CartContextProvider = ({children}) => {
     
 
       function isInCart(id){
-        return cartItems.some(e => e.id === id) // Con some compruebo si es verdadero o falso
+        return cartItems.some(e => e.id === id) 
         
      }
      

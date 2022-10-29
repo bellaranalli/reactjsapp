@@ -7,8 +7,7 @@ import "../Item/Item.css"
 import ItemCounter from "../ItemCounter/ItemCounter"
 import { CartContext } from '../../../context/CartContext';
 
-
-
+//detalle del item cuando ingreso a cada uno
 
  function ItemDetail({data}) {
 

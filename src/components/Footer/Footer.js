@@ -21,3 +21,5 @@ const Footer = () => {
 }
 
 export default Footer
+
+//rrss no llevan a ningún lado
